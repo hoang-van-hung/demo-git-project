@@ -11,6 +11,7 @@ import { LogoutComponent } from './Components/logout/logout.component';
 import { RegisterComponent } from './Components/register/register.component';
 
  import { authInterceptorProviders } from './_helpers/auth.interceptor';
+import { HaicoComponent } from './haico/haico.component';
 
 
 
@@ -19,7 +20,8 @@ import { RegisterComponent } from './Components/register/register.component';
     AppComponent,
     LoginComponent,
     LogoutComponent,
-    RegisterComponent
+    RegisterComponent,
+    HaicoComponent
   ],
   imports: [
     BrowserModule,
